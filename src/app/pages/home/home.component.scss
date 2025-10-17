@@ -1,0 +1,207 @@
+main {
+  .banner {
+    img {
+      width: 100%;
+    }
+  }
+
+  .banner_servicos {
+    img {
+      width: 100%;
+    }
+  }
+
+  .flat {
+    width: 100%;
+    height: 250px;
+    background: #003366fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .flat-person {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        color: #FFF;
+        font-size: 26px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      .btn-person {
+        display: flex;
+        width: 470px;
+        height: 38px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid #003366fc;
+        background: #70C6B8;
+
+        a {
+          color: #FFF;
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .flat-enterprise {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h3 {
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      .btn-enterprise {
+        display: flex;
+        width: 300px;
+        height: 38px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid #70C6B8;
+        background: #003366fc;
+
+        a {
+          color: #FFF;
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .about-us {
+    background-image: url('/assets/img/saude-mental.svg'), url('/assets/img/coracao.svg'),url('/assets/img/cerebro-humano.svg');
+    background-repeat: no-repeat;
+    background-size: 200px auto, 450px 600px, 250px auto;
+    background-position: left bottom, center top, right top;
+    width: 100%;
+    height: 554px;
+
+    .background-overlay {
+      background: rgba(214, 234, 255, 0.70);
+      backdrop-filter: blur(5px);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+
+      h2 {
+        color: #003366fc;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #70C6B8;
+        font-size: 26px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        width: 90%;
+      };
+    }
+  }
+
+  .contact {
+    width: 100%;
+    background: #70C6B8;
+    box-shadow: 50px 10px 100px 50px #366059;
+    padding: 50px 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    h2 {
+      color: #003366fc;
+      font-size: 28px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    .contact_container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        i {
+          font-size: 40px;
+          color: #003366fc;
+        }
+
+        h3 {
+          color: #003366fc;
+          font-size: 24px;
+          font-weight: 500;
+        }
+
+        p {
+          color: #FFF;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+
+    h2 {
+      color: #003366fc;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #70C6B8;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    p {
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .btn-saiba-mais {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+
+    }
+  }
+}

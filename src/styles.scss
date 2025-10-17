@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: #EDFFFC;
+}
+
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+  background: #EDFFFC;
+  border-left: 1px solid #003366;
+  border-right: 1px solid #003366;
+}
+
+::-webkit-scrollbar-thumb {
+ background: linear-gradient(to top, #70C6B8, #a9f9ec,#003366);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
