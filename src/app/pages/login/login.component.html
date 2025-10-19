@@ -1,0 +1,20 @@
+<app-default-login-layout
+  title="Faça seu login. O cuidado começa agora"
+  btnText="Entrar"
+>
+  <form [formGroup]="loginForm">
+    <app-primary-input
+      formName="email"
+      type="email"
+      label="Email"
+      placeholder="hakeem@digital.com"
+    ></app-primary-input>
+    <app-primary-input
+      formName="password"
+      type="password"
+      label="Sua senha"
+      placeholder="*******************"
+    ></app-primary-input>
+
+  </form>
+</app-default-login-layout>
